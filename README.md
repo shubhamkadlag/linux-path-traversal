@@ -1,6 +1,6 @@
 # linux-path-traversal
 
-A CLI application which supports below Linux commands:
+A dummy CLI application which supports below Linux commands:
 cd
 ls
 mkdir
@@ -8,7 +8,7 @@ rm
 pwd
 session clear
 
-
+The application does not create real directories on the disk.
 The application internally uses a custom implentation of N-ary tree for storing the directory structure.
 The code is designed in accordance with Service Locator Pattern in order to provide good extensibility.
 The services are Cached in an instance of Class com.demo.util.Cache in order to provide good extensibility and performance.
