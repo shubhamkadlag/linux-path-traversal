@@ -1,7 +1,7 @@
 # linux-path-traversal
 
-A dummy CLI application which supports below Linux commands:
-cd
+A dummy CLI application which supports below Linux commands:\n
+cd\n
 ls
 mkdir
 rm
